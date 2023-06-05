@@ -22,25 +22,25 @@ In a nutshell:
 
 
 ## An example of how the dataset might look for our case above:
-TransactionID: A unique identifier for each transaction
+**TransactionID**: A unique identifier for each transaction
 
-StoreID: The unique identifier of the store where the transaction took place
+**StoreID**: The unique identifier of the store where the transaction took place
 
-CustomerID: The unique identifier for each customer
+**CustomerID**: The unique identifier for each customer
 
-Date: The date when the transaction took place
+**Date**: The date when the transaction took place
 
-ItemID: The unique identifier for each item sold
+**ItemID**: The unique identifier for each item sold
 
-ItemCategory: The category of the item (e.g., Men's Clothing, Women's Clothing, Kid's Clothing)
+**ItemCategory**: The category of the item (e.g., Men's Clothing, Women's Clothing, Kid's Clothing)
 
-ItemSubCategory: The sub-category of the item (e.g., Shirts, Pants, Skirts)
+**ItemSubCategory**: The sub-category of the item (e.g., Shirts, Pants, Skirts)
 
-Quantity: The number of the same item bought in the transaction
+**Quantity**: The number of the same item bought in the transaction
 
-Price: The price of the item
+**Price**: The price of the item
 
-Total: The total cost of the transaction
+**Total**: The total cost of the transaction
 
 
 | TransactionID | StoreID | CustomerID | Date       | ItemID | ItemCategory | ItemSubCategory | Quantity | Price | Total |
