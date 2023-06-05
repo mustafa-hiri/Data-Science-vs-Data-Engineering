@@ -74,7 +74,7 @@ Let's consider some examples using the hypothetical clothing store dataset:
 
 In general, choosing the right target and features is an important part of the data science process, and it requires both a good understanding of the business problem and the data you have available.
 
-## data science project 
+## Data Science Project 
 A successful data science project is indeed a team effort and not just the domain of data scientists. It involves several roles, each contributing a unique set of skills. Let me explain these roles and their contributions:
 
 1. **Data Scientists**: Data scientists are the ones who formulate the questions that need answering, design and implement the models to answer these questions, and interpret the results. They need a deep understanding of the data and the business context, as well as the technical skills to perform complex analysis and modeling.
