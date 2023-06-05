@@ -59,7 +59,7 @@ In this hypothetical dataset:
 
 This is just a small slice of the data. In reality, you would likely have many more transactions, and potentially more fields depending on what information is relevant for your analysis.
 
-#### The Target and the Features
+## The Target and the Features
 In a dataset, the target (or label) is the variable that we want to predict or forecast, while the features (or predictors) are the variables that we use to make that prediction. 
 
 The choice of target and features depends on the specific question or problem that you're trying to solve with your data science project.
