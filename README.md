@@ -1,5 +1,6 @@
 # Data-Science-vs-Data-Engineering
-Data Science vs Data Engineering
+Data Science vs Data Engineering:
+
 ---> Understanding and leveraging both data science and data engineering can help businesses make data-driven decisions, improve efficiency, and ultimately enhance their operations and profitability.
 
 I will break it down in a way that's easy to understand:
@@ -17,3 +18,34 @@ In a nutshell:
 - Data Scientists focus on creating models that help make sense of complex data, they work more on the interpretation and analysis side.
 
 - Data Engineers, on the other hand, focus on building robust, efficient, and reliable systems to handle, store and process large amounts of data, they work more on the infrastructure side.
+
+
+
+## An example of how the dataset might look for our case above:
+TransactionID: A unique identifier for each transaction
+StoreID: The unique identifier of the store where the transaction took place
+CustomerID: The unique identifier for each customer
+Date: The date when the transaction took place
+ItemID: The unique identifier for each item sold
+ItemCategory: The category of the item (e.g., Men's Clothing, Women's Clothing, Kid's Clothing)
+ItemSubCategory: The sub-category of the item (e.g., Shirts, Pants, Skirts)
+Quantity: The number of the same item bought in the transaction
+Price: The price of the item
+Total: The total cost of the transaction
+
+
+| TransactionID | StoreID | CustomerID | Date       | ItemID | ItemCategory | ItemSubCategory | Quantity | Price | Total |
+|---------------|---------|------------|------------|--------|--------------|-----------------|----------|-------|-------|
+| 001           | 01      | 1001       | 2023-06-01 | A001   | Men's Clothing   | Shirts          | 2        | 50    | 100   |
+| 002           | 01      | 1002       | 2023-06-01 | B001   | Women's Clothing | Skirts          | 1        | 60    | 60    |
+| 003           | 02      | 1003       | 2023-06-01 | C001   | Kid's Clothing   | Pants           | 3        | 30    | 90    |
+| 004           | 02      | 1001       | 2023-06-02 | A001   | Men's Clothing   | Shirts          | 1        | 50    | 50    |
+| 005           | 03      | 1004       | 2023-06-02 | B001   | Women's Clothing | Skirts          | 2        | 60    | 120   |
+
+In this hypothetical dataset:
+
+- Transaction 001 represents a customer with ID 1001 buying 2 shirts from the men's clothing category at Store 01 on June 1st, 2023. Each shirt costs 50, so the total for this transaction is 100.
+- Transaction 002 represents a different customer (ID 1002) buying a skirt from the women's clothing category at the same store (Store 01) on the same day. The skirt costs 60, so the total for this transaction is 60.
+- And so on for the other transactions.
+
+This is just a small slice of the data. In reality, you would likely have many more transactions, and potentially more fields depending on what information is relevant for your analysis.
